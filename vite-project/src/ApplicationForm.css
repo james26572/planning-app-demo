@@ -1,0 +1,140 @@
+/* General Layout */
+.app-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 250px;
+    background-color: #eaf4e0;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-title {
+    font-size: 1.8rem;
+    color: #2d5b29;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-link {
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    color: #4caf50;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .sidebar-link:hover,
+  .sidebar-link.active {
+    background-color: #d9e9d1;
+    color: #2d5b29;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 1;
+    background-color: #f3f7f1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #e8f2e4;
+  }
+  
+  .form-title {
+    font-size: 1.8rem;
+    color: #2d5b29;
+  }
+  
+  .form-search {
+    padding: 0.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .mygov-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .mygov-button:hover {
+    background-color: #3e8b3d;
+  }
+  
+  /* Form Content */
+  .form-main {
+    padding: 2rem;
+  }
+  
+  .form-subtitle {
+    font-size: 1.5rem;
+    color: #2d5b29;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-section {
+    margin-bottom: 2rem;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .form-input {
+    padding: 0.8rem;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+  }
+  
+  .form-button {
+    padding: 0.5rem 1rem;
+    background-color: #e8f2e4;
+    color: #4caf50;
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .form-continue-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
