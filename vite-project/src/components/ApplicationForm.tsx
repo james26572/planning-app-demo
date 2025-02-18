@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Box, Typography, TextField, Button, Grid, MenuItem,  Snackbar } from '@mui/material';
 
 import Sidebar from './SideBar';
-import RightSidebar from './RightSideBar';
+import RightSideBar from './RightSideBar';
 import { useFormContext } from '../FormContext';
 
 
@@ -94,7 +94,7 @@ const ApplicationForm: React.FC = () => {
         </Box>
       </Box>
       <Snackbar open={openSnackbar} autoHideDuration={6000} onClose={() => setOpenSnackbar(false)} message="Application submitted successfully!" />
-      <RightSidebar/>
+      <RightSideBar/>
     </Box>
   );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography, TextField, Button, Grid,  } from '@mui/material';
 import Sidebar from './SideBar';
 import { useNavigate } from 'react-router-dom';
-import RightSidebar from './RightSideBar';
+import RightSideBar from './RightSideBar';
 import { useFormContext } from '../FormContext';
 
 const PropertyDescription: React.FC = () => {
@@ -60,7 +60,7 @@ const PropertyDescription: React.FC = () => {
         </Box>
         
       </Box>
-      <RightSidebar/>
+      <RightSideBar/>
     </Box>
   );
 };

@@ -11,7 +11,7 @@ const sections = [
   { label: 'Confirmation', path: '/confirmation' },
 ];
 
-const RightSidebar: React.FC = () => {
+const RightSideBar: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -39,4 +39,4 @@ const RightSidebar: React.FC = () => {
   );
 };
 
-export default RightSidebar;
+export default RightSideBar;

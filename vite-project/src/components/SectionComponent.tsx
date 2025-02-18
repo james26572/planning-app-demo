@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography, TextField, Button } from '@mui/material';
 import Sidebar from './SideBar';
-import RightSidebar from './RightSideBar';
+import RightSideBar from './RightSideBar';
 import { useFormContext } from '../FormContext';
 import { useNavigate } from 'react-router-dom';
 
@@ -85,7 +85,7 @@ const SectionComponent: React.FC<SectionProps> = ({ title, fields, nextPath }) =
           </Button>
         </Box>
       </Box>
-      <RightSidebar />
+      <RightSideBar />
     </Box>
   );
 };
