@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography, TextField, Button, Grid,  } from '@mui/material';
 import Sidebar from './SideBar';
 import { useNavigate } from 'react-router-dom';
-import RightSideBar from './RightSideBar';
+import RightSideBar from './RightBar';
 import { useFormContext } from '../FormContext';
 
 const PropertyDescription: React.FC = () => {
