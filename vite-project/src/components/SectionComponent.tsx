@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography, TextField, Button } from '@mui/material';
 import Sidebar from './SideBar';
-import RightSideBar from './RightBar';
+import RightSideBar from './RightSideBar';
 import { useFormContext } from '../FormContext';
 import { useNavigate } from 'react-router-dom';
 

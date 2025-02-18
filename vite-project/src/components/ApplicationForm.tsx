@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Box, Typography, TextField, Button, Grid, MenuItem,  Snackbar } from '@mui/material';
 
 import Sidebar from './SideBar';
-import RightSideBar from './RightBar';
+import RightSideBar from './RightSideBar';
 import { useFormContext } from '../FormContext';
 
 
