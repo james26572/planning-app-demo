@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, List, ListItem, ListItemButton, ListItemText, Divider } from '@mui/material';
+import { Box,  List, ListItem, ListItemButton, ListItemText,  } from '@mui/material';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const sections = [

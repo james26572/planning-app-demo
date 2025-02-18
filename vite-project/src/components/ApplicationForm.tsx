@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Box, Typography, TextField, Button, Grid, MenuItem, List, ListItem, ListItemButton, ListItemText, Divider, Snackbar } from '@mui/material';
-import { MdSearch } from 'react-icons/md';
+import { Box, Typography, TextField, Button, Grid, MenuItem,  Snackbar } from '@mui/material';
+
 import Sidebar from './SideBar';
 import RightSidebar from './RightSideBar';
 import { useFormContext } from '../FormContext';

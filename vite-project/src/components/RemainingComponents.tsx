@@ -1,4 +1,4 @@
-import React from 'react';
+
 import SectionComponent from './SectionComponent';
 
 export const LegalInterest = () => (
