@@ -5,7 +5,7 @@ export const LegalInterest = () => (
   <SectionComponent
     title="Legal Interest"
     fields={[{ name: 'legalInterest', label: 'Describe your legal interest in the property', type: 'text', placeholder: 'E.g., Owner, Leaseholder' }]}
-    nextPath="/dev-details"
+    nextPath="/development-details"
   />
 );
 
@@ -13,7 +13,7 @@ export const DevelopmentDetails = () => (
   <SectionComponent
     title="Development Details"
     fields={[{ name: 'developmentDetails', label: 'Details of the development', type: 'text', placeholder: 'Provide development details' }]}
-    nextPath="/drawing"
+    nextPath="/drawings"
   />
 );
 
