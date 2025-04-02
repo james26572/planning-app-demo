@@ -2,7 +2,7 @@
 import React from 'react';
 import { Box, Typography, Divider, List, ListItem, ListItemButton, ListItemText } from '@mui/material';
 import { MdHome, MdNoteAdd, MdHelpOutline, MdSettings, MdInfo } from 'react-icons/md';
-import IrishFlagIcon from '../assets/irish-flag-icon.png';
+import IrishFlagIcon from '../assets/PlanÉire.png';
 import { Link } from 'react-router-dom';
 
 const Sidebar: React.FC = () => {
